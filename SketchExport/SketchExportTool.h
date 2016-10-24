@@ -74,8 +74,8 @@ typedef void(^CompletionCallBackBlock)(SketchExportToolContext *context, NSError
 /**
  *  命令行附加参数
  *
- *  @param command 例如 -o
- *  @param arg     参数 <path>
+ *  @param command 例如 --output (必须是这种格式)
+ *  @param arg     参数 <path> （不需要加尖括号）
  */
 - (void)addCommand:(NSString *)command arg:(NSString *)arg;
 

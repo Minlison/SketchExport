@@ -169,8 +169,11 @@
 		if ([data length])
 		{
 			NSString * outputString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-			
-			NSLog(@"%@",outputString);
+			self.context.currentOutPutImage = [outputString stringByReplacingOccurrencesOfString:@"Exported " withString:@""];
+			if (self.context.progressBlock)
+			{
+				self.context.progressBlock(self.context);
+			}
 		}
 		
 		if (self.unixTask != nil && [self.unixTask isRunning])
