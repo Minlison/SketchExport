@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F368218C1DBDFB550029D61D /* share in Resources */ = {isa = PBXBuildFile; fileRef = F368218B1DBDFB550029D61D /* share */; };
+		F368218E1DBDFBA10029D61D /* bin in Resources */ = {isa = PBXBuildFile; fileRef = F368218D1DBDFBA10029D61D /* bin */; };
+		F3B69CB21DBDAB6F006EB05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B69CB11DBDAB6F006EB05A /* AppDelegate.m */; };
+		F3B69CB51DBDAB6F006EB05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B69CB41DBDAB6F006EB05A /* main.m */; };
+		F3B69CB81DBDAB6F006EB05A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B69CB71DBDAB6F006EB05A /* ViewController.m */; };
+		F3B69CBA1DBDAB6F006EB05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B69CB91DBDAB6F006EB05A /* Assets.xcassets */; };
+		F3B69CBD1DBDAB6F006EB05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B69CBB1DBDAB6F006EB05A /* Main.storyboard */; };
+		F3B69CD01DBDABE1006EB05A /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = F3B69CC81DBDABE1006EB05A /* install.sh */; };
+		F3B69CD11DBDABE1006EB05A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3B69CC91DBDABE1006EB05A /* README.txt */; };
+		F3B69CD21DBDABE1006EB05A /* RELEASE NOTES.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3B69CCA1DBDABE1006EB05A /* RELEASE NOTES.txt */; };
+		F3B69CD61DBDAC83006EB05A /* SketchExportTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B69CD51DBDAC83006EB05A /* SketchExportTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F368218B1DBDFB550029D61D /* share */ = {isa = PBXFileReference; lastKnownFileType = folder; path = share; sourceTree = "<group>"; };
+		F368218D1DBDFBA10029D61D /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		F3B69CAD1DBDAB6F006EB05A /* SketchExport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchExport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B69CB01DBDAB6F006EB05A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3B69CB11DBDAB6F006EB05A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3B69CB41DBDAB6F006EB05A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B69CB61DBDAB6F006EB05A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3B69CB71DBDAB6F006EB05A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3B69CB91DBDAB6F006EB05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B69CBC1DBDAB6F006EB05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B69CBE1DBDAB6F006EB05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B69CC81DBDABE1006EB05A /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		F3B69CC91DBDABE1006EB05A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F3B69CCA1DBDABE1006EB05A /* RELEASE NOTES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RELEASE NOTES.txt"; sourceTree = "<group>"; };
+		F3B69CD41DBDAC83006EB05A /* SketchExportTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SketchExportTool.h; sourceTree = "<group>"; };
+		F3B69CD51DBDAC83006EB05A /* SketchExportTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SketchExportTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B69CAA1DBDAB6F006EB05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B69CA41DBDAB6F006EB05A = {
+			isa = PBXGroup;
+			children = (
+				F3B69CAF1DBDAB6F006EB05A /* SketchExport */,
+				F3B69CAE1DBDAB6F006EB05A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B69CAE1DBDAB6F006EB05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B69CAD1DBDAB6F006EB05A /* SketchExport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B69CAF1DBDAB6F006EB05A /* SketchExport */ = {
+			isa = PBXGroup;
+			children = (
+				F3B69CC41DBDABE1006EB05A /* Sketch */,
+				F3B69CB01DBDAB6F006EB05A /* AppDelegate.h */,
+				F3B69CB11DBDAB6F006EB05A /* AppDelegate.m */,
+				F3B69CB61DBDAB6F006EB05A /* ViewController.h */,
+				F3B69CB71DBDAB6F006EB05A /* ViewController.m */,
+				F3B69CD41DBDAC83006EB05A /* SketchExportTool.h */,
+				F3B69CD51DBDAC83006EB05A /* SketchExportTool.m */,
+				F3B69CB91DBDAB6F006EB05A /* Assets.xcassets */,
+				F3B69CBB1DBDAB6F006EB05A /* Main.storyboard */,
+				F3B69CBE1DBDAB6F006EB05A /* Info.plist */,
+				F3B69CB31DBDAB6F006EB05A /* Supporting Files */,
+			);
+			path = SketchExport;
+			sourceTree = "<group>";
+		};
+		F3B69CB31DBDAB6F006EB05A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B69CB41DBDAB6F006EB05A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B69CC41DBDABE1006EB05A /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				F368218D1DBDFBA10029D61D /* bin */,
+				F368218B1DBDFB550029D61D /* share */,
+				F3B69CC81DBDABE1006EB05A /* install.sh */,
+				F3B69CC91DBDABE1006EB05A /* README.txt */,
+				F3B69CCA1DBDABE1006EB05A /* RELEASE NOTES.txt */,
+			);
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B69CAC1DBDAB6F006EB05A /* SketchExport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B69CC11DBDAB6F006EB05A /* Build configuration list for PBXNativeTarget "SketchExport" */;
+			buildPhases = (
+				F3B69CA91DBDAB6F006EB05A /* Sources */,
+				F3B69CAA1DBDAB6F006EB05A /* Frameworks */,
+				F3B69CAB1DBDAB6F006EB05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchExport;
+			productName = SketchExport;
+			productReference = F3B69CAD1DBDAB6F006EB05A /* SketchExport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B69CA51DBDAB6F006EB05A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.ichengzivrqianiu.orgz;
+				TargetAttributes = {
+					F3B69CAC1DBDAB6F006EB05A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CH5MP38VP6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3B69CA81DBDAB6F006EB05A /* Build configuration list for PBXProject "SketchExport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B69CA41DBDAB6F006EB05A;
+			productRefGroup = F3B69CAE1DBDAB6F006EB05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B69CAC1DBDAB6F006EB05A /* SketchExport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B69CAB1DBDAB6F006EB05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368218C1DBDFB550029D61D /* share in Resources */,
+				F3B69CD21DBDABE1006EB05A /* RELEASE NOTES.txt in Resources */,
+				F3B69CBA1DBDAB6F006EB05A /* Assets.xcassets in Resources */,
+				F3B69CBD1DBDAB6F006EB05A /* Main.storyboard in Resources */,
+				F368218E1DBDFBA10029D61D /* bin in Resources */,
+				F3B69CD11DBDABE1006EB05A /* README.txt in Resources */,
+				F3B69CD01DBDABE1006EB05A /* install.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B69CA91DBDAB6F006EB05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B69CB81DBDAB6F006EB05A /* ViewController.m in Sources */,
+				F3B69CB51DBDAB6F006EB05A /* main.m in Sources */,
+				F3B69CB21DBDAB6F006EB05A /* AppDelegate.m in Sources */,
+				F3B69CD61DBDAC83006EB05A /* SketchExportTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B69CBB1DBDAB6F006EB05A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B69CBC1DBDAB6F006EB05A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B69CBF1DBDAB6F006EB05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F3B69CC01DBDAB6F006EB05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3B69CC21DBDAB6F006EB05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CH5MP38VP6;
+				INFOPLIST_FILE = SketchExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ichengzivr.SketchExport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3B69CC31DBDAB6F006EB05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CH5MP38VP6;
+				INFOPLIST_FILE = SketchExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ichengzivr.SketchExport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B69CA81DBDAB6F006EB05A /* Build configuration list for PBXProject "SketchExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B69CBF1DBDAB6F006EB05A /* Debug */,
+				F3B69CC01DBDAB6F006EB05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B69CC11DBDAB6F006EB05A /* Build configuration list for PBXNativeTarget "SketchExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B69CC21DBDAB6F006EB05A /* Debug */,
+				F3B69CC31DBDAB6F006EB05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B69CA51DBDAB6F006EB05A /* Project object */;
+}
